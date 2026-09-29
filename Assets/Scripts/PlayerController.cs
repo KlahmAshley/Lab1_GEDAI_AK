@@ -82,7 +82,16 @@ public class PlayerController : MonoBehaviour
 
         Flip();
 
-        Debug.Log(SceneManager.GetActiveScene().name);
+        if (remainingEB == collected)
+        {
+            SceneManagerAK.Instance.CheckAndLoadScene();
+        }
+
+
+        /*
+         OLD CODE B4 SINGLETON:
+
+             Debug.Log(SceneManager.GetActiveScene().name);
 
       if (remainingEB == collected && SceneManager.GetActiveScene().name == ("SampleScene"))
         {
@@ -100,8 +109,7 @@ public class PlayerController : MonoBehaviour
             endScene.SetActive(true);
 
         }
-
-
+*/
 
     }
 
