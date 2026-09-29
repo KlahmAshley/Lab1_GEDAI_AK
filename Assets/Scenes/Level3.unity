@@ -24695,7 +24695,7 @@ MonoBehaviour:
   animator: {fileID: 2028468024}
   EBCounter: {fileID: 1943991143}
   remainingEB: 10
-  collected: 0
+  collected: 9
   endScene: {fileID: 1214437322}
   collect: {fileID: 715829234}
   backgroundMusic: {fileID: 0}

@@ -12,16 +12,14 @@ public class SceneManagerAK : MonoBehaviour
     {
         get
         {
+            _Instance = FindObjectOfType<SceneManagerAK>();
+
             if (_Instance == null)
             {
-                _Instance = FindObjectOfType<SceneManagerAK>();
-
-                if (_Instance == null)
-                {
                     GameObject obj = new GameObject();
                     obj.name = typeof(SceneManagerAK).Name;
                     _Instance = obj.AddComponent<SceneManagerAK>();
-                }
+               
             }
 
             return _Instance;
@@ -54,6 +52,10 @@ public class SceneManagerAK : MonoBehaviour
         else if (SceneManager.GetActiveScene().name == ("Level3"))
         {
             SceneManager.LoadScene("EndScene");
+        }
+        else
+        {
+            Debug.LogError("Not a scene meant to switch or other error");
         }
 
 
