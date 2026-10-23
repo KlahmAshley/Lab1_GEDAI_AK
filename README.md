@@ -1,4 +1,5 @@
 In Class Activity Week 6:
+
 <img width="211" height="155" alt="Screenshot 2026-10-23 180719" src="https://github.com/user-attachments/assets/4fb8dc9c-a887-4152-9650-c394e9b3179a" />
 
 
