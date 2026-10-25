@@ -1,3 +1,39 @@
+In Class Activity Week 6:
+
+<img width="211" height="155" alt="Screenshot 2026-10-23 180719" src="https://github.com/user-attachments/assets/4fb8dc9c-a887-4152-9650-c394e9b3179a" />
+
+
+The DLL was created in Visual Studios using C++, it is then complied into a single file which can than be used with the help of a C# wrapper within the Unity project. In this project the plugin is being used to get and set a number, an additional script in Unity is being used to display it.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LAB 1:
+
+
 # Lab1_GEDAI_AK
 
 Name: Ashley Klahm
